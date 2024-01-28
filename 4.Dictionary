@@ -1,0 +1,31 @@
+items = {
+    "Mia": "Legend",
+    "Sunny": "Pro",
+    "Daniel":"Good"
+    }
+
+#method 1
+print(items["Mia"])
+print(items["Sunny"])
+print(items["Daniel"],"\n")
+
+#Method 2
+for name in items:
+    print(name) 
+print("")  # This is just to add a seperation between methods
+
+#Method 3
+for names in items:
+    print(names, items[names], sep=":" )
+
+print("\n Example 2 \n")
+
+#Lets Take another example with more catagories and data
+characters = [
+    {"name": "Goku", "class": "DBZ", "result": "Pass"},
+    {"name": "Zoro", "class": "VerseTraveller", "result": "Can't Calculate"},
+    {"name": "Sakura", "class": "Trash", "result": "Unworthy"}
+]
+
+for character in characters:
+    print(character["name"], character["class"], character["result"], sep=":" , end="\n")
