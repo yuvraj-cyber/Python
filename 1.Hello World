@@ -1,3 +1,4 @@
+	Syntax :
 	```
 	#1
 	name = input("1: What's your name?")
