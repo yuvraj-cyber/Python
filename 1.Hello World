@@ -1,5 +1,3 @@
-	Syntax :
-	```
 	#1
 	name = input("1: What's your name?")
 	# Here 'name' is a variable and we use 'input' to get data(here name) from user
@@ -40,4 +38,3 @@
 	name = name.lower()
 	# it Makes the every letter of first word smaller
 	print('9:',name)
-	```
